@@ -52,6 +52,10 @@
   justify-self: start;
 }
 
+.service-detail-card .btn + .btn {
+  margin-top: -4px;
+}
+
 .split-grid {
   align-items: start;
 }
