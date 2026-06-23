@@ -1,0 +1,43 @@
+/* Base, tipografia e utilitarios */
+body{
+  font-family:var(--font-body);
+  color:var(--ink-900);
+  background:var(--white);
+  -webkit-font-smoothing:antialiased;
+  line-height:1.55;
+}
+h1,h2,h3,h4{font-family:var(--font-display); color:var(--navy-900); line-height:1.18; letter-spacing:-.01em;}
+.container{max-width:var(--container); margin:0 auto; padding:0 var(--space-md);}
+
+
+:focus-visible{outline:3px solid var(--blue-300); outline-offset:2px; border-radius:4px;}
+
+.section{padding:var(--space-3xl) 0;}
+.section-sm{padding:var(--space-xl) 0;}
+
+
+.text-center{text-align:center;}
+.mt-12{margin-top:var(--space-xs);}
+.mt-20{margin-top:var(--space-sm);}
+.mt-32{margin-top:var(--space-md);}
+.mt-40{margin-top:var(--space-lg);}
+.mb-48{margin-bottom:var(--space-xl);}
+
+.eyebrow{
+  display:inline-flex; align-items:center; gap:8px;
+  font-family:var(--font-body); font-weight:700; font-size:13px; letter-spacing:.04em; text-transform:uppercase;
+  color:var(--signal-700); background:var(--signal-100);
+  padding:7px 16px; border-radius:var(--radius-pill);
+  margin-bottom:var(--space-sm);
+}
+.eyebrow--light{ color:var(--blue-300); background:rgba(255,255,255,.1); }
+.eyebrow svg{width:15px;height:15px;}
+
+.section-title{font-size:clamp(28px,4vw,40px); font-weight:700; margin-bottom:var(--space-xs);}
+.section-title--light{color:var(--white);}
+.section-subtitle{font-size:17px; color:var(--ink-500); max-width:560px; margin-top:var(--space-2xs);}
+.section-subtitle--center{margin-left:auto;margin-right:auto; text-align:center;}
+.section-subtitle--light{color:var(--blue-100);}
+.section-head{margin-bottom:var(--space-lg);}
+
+.ico{width:22px;height:22px;flex:none;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;}

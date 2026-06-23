@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Desentupidora 24h em São Paulo. Desentupimento de vaso, pia, ralo, esgoto, caça vazamentos, hidrojateamento, vídeo inspeção e dedetização. Atendimento emergencial." />
+<meta name="keywords" content="desentupidora 24h São Paulo, desentupidora perto de mim, caça vazamento São Paulo, desentupimento de vaso, desentupimento de pia, hidrojateamento, dedetização, controle de pragas, emergência hidráulica" />
+<meta name="robots" content="index, follow" />
+<meta property="og:title" content="Kortesia Desentupidora | Atendimento 24h em São Paulo" />
+<meta property="og:description" content="Desentupimento, caça vazamentos, hidrojateamento e dedetização. Atendimento 24h em São Paulo e região." />
+<meta property="og:type" content="website" />
+<title>Kortesia Desentupidora | Atendimento 24h em São Paulo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="./src/css/variables.css" />
+<link rel="stylesheet" href="./src/css/reset.css" />
+<link rel="stylesheet" href="./src/css/base.css" />
+<link rel="stylesheet" href="./src/css/layout.css" />
+<link rel="stylesheet" href="./src/css/components.css" />
+<link rel="stylesheet" href="./src/css/home.css" />
+<link rel="stylesheet" href="./src/css/responsive.css" />
+</head>
+<body>
+
+<!-- ============================================================
+     SPRITE DE ÍCONES (SVG reutilizáveis — substitui emojis)
+============================================================ -->
+<svg class="u-inline-style-1" aria-hidden="true">
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 11.5a8.5 8.5 0 1 1-3.4-6.8L21 4l-1 4.3a8.4 8.4 0 0 1 1 3.2Z"/><path d="M8 12h.01M12 12h.01M16 12h.01"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></symbol>
+  <symbol id="i-building" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="1.5"/><path d="M9 8h1M14 8h1M9 12h1M14 12h1M9 16h1M14 16h1"/></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 19.5c0-3 2.5-5.2 5.5-5.2s5.5 2.2 5.5 5.2"/><circle cx="17.2" cy="9.2" r="2.4"/><path d="M16 14.6c2.4.4 4.2 2.2 4.5 4.9"/></symbol>
+  <symbol id="i-tool" viewBox="0 0 24 24"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.3 2.3-2.6-.4-.4-2.6 2.3-2.3Z"/></symbol>
+  <symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8Z"/></symbol>
+  <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 11.5 12 4l9 7.5"/><path d="M5.5 10v9.5A1 1 0 0 0 6.5 20.5h11a1 1 0 0 0 1-1V10"/><path d="M9.5 20.5v-6h5v6"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5 10 17l9-11"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 4.5 6v6c0 5 3.5 7.6 7.5 9 4-1.4 7.5-4 7.5-9V6L12 3Z"/><path d="M9 12l2.2 2.2L15.5 10"/></symbol>
+  <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="9" r="5.5"/><path d="M8.5 13.8 7 21l5-2.6L17 21l-1.5-7.2"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4.3-4.3"/></symbol>
+  <symbol id="i-droplet" viewBox="0 0 24 24"><path d="M12 3s6.5 7.1 6.5 11.5a6.5 6.5 0 0 1-13 0C5.5 10.1 12 3 12 3Z"/></symbol>
+  <symbol id="i-alert" viewBox="0 0 24 24"><path d="M12 3 2 20h20L12 3Z"/><path d="M12 10v4M12 17h.01"/></symbol>
+  <symbol id="i-dollar" viewBox="0 0 24 24"><path d="M12 2v20M16.5 6.5c0-1.9-2-3-4.5-3s-4.5 1.3-4.5 3.3 2 2.7 4.5 3.2 4.5 1.3 4.5 3.3-2 3.3-4.5 3.3-4.5-1.1-4.5-3"/></symbol>
+  <symbol id="i-box" viewBox="0 0 24 24"><path d="M3.5 7.5 12 3l8.5 4.5v9L12 21l-8.5-4.5v-9Z"/><path d="M3.5 7.5 12 12l8.5-4.5M12 12v9"/></symbol>
+  <symbol id="i-arrowup" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.5"/><path d="M12 16V8M8.5 11.5 12 8l3.5 3.5"/></symbol>
+  <symbol id="i-camera" viewBox="0 0 24 24"><path d="M4 8h3l1.5-2h7L17 8h3a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1Z"/><circle cx="12" cy="13" r="3.4"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="M4 6.5 12 13l8-6.5"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21.5S5 14.8 5 9.8a7 7 0 0 1 14 0c0 5-7 11.7-7 11.7Z"/><circle cx="12" cy="9.7" r="2.6"/></symbol>
+  <symbol id="i-chevron" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></symbol>
+  <symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-cpipe" viewBox="0 0 24 24"><path d="M3 9h6a3 3 0 0 1 3 3v0a3 3 0 0 0 3 3h6"/><path d="M3 15h6a3 3 0 0 0 3-3v0a3 3 0 0 1 3-3h6"/></symbol>
+  <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></symbol>
+  <symbol id="i-fire" viewBox="0 0 24 24"><path d="M12 2c-1.2 3-4 4.4-4 8a4 4 0 0 0 8 0c0-1.6-.7-2.5-1.3-3.4.6 2 .2 3.4-1 4.4a2.6 2.6 0 0 1-4.2-2c0-2.3 2.5-4.2 2.5-7Z"/><path d="M9 14a4 4 0 1 0 8 0c0-1-.4-1.8-.9-2.6"/></symbol>
+  <symbol id="i-whatsapp" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></symbol>
+</svg>
+
+<!-- ============================================================
+     HEADER FIXO
+============================================================ -->
+<header id="header">
+  <div class="container">
+    <div class="header-inner">
+      <a href="#hero" class="logo" aria-label="Ir para o início">
+        <div class="logo-icon"><svg class="ico u-inline-style-2"><use href="#i-tool"/></svg></div>
+        <span>Kortesia</span>&nbsp;<span class="accent">Desentupidora</span>
+      </a>
+
+      <nav aria-label="Menu principal">
+        <a href="#hero">Início</a>
+        <a href="#services">Serviços</a>
+        <a href="#leak">Caça Vazamentos</a>
+        <a href="#about">Sobre</a>
+        <a href="#testimonials">Depoimentos</a>
+        <a href="#contact">Contato</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#" data-phone-link class="header-phone" aria-label="Ligar agora">
+          <svg class="ico"><use href="#i-phone"/></svg>
+          <span data-phone-display></span>
+        </a>
+        <a href="#" data-whatsapp-message="Olá! Preciso de um orçamento." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener">
+          <svg class="ico u-inline-style-3"><use href="#i-whatsapp"/></svg>
+          <span>WhatsApp</span>
+        </a>
+        <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobileMenu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu" role="navigation" aria-label="Menu mobile" aria-hidden="true">
+  <a href="#hero"><svg class="ico"><use href="#i-home"/></svg> Início</a>
+  <a href="#services"><svg class="ico"><use href="#i-tool"/></svg> Serviços</a>
+  <a href="#leak"><svg class="ico"><use href="#i-search"/></svg> Caça Vazamentos</a>
+  <a href="#howit"><svg class="ico"><use href="#i-cpipe"/></svg> Como Funciona</a>
+  <a href="#about"><svg class="ico"><use href="#i-building"/></svg> Sobre Nós</a>
+  <a href="#testimonials"><svg class="ico"><use href="#i-award"/></svg> Depoimentos</a>
+  <a href="#regions"><svg class="ico"><use href="#i-pin"/></svg> Regiões</a>
+  <a href="#faq"><svg class="ico"><use href="#i-chevron"/></svg> FAQ</a>
+  <a href="#contact"><svg class="ico"><use href="#i-mail"/></svg> Contato</a>
+  <div class="mobile-menu-actions">
+    <a href="#" data-whatsapp-message="Olá! Preciso de um orçamento." class="btn btn-whatsapp" target="_blank" rel="noopener">
+      <svg class="ico u-inline-style-3"><use href="#i-whatsapp"/></svg> Chamar no WhatsApp
+    </a>
+    <a href="#" data-phone-link class="btn btn-phone">
+      <svg class="ico"><use href="#i-phone"/></svg> Ligar agora: <span data-phone-display></span>
+    </a>
+  </div>
+</div>
+
+<!-- ============================================================
+     HERO
+============================================================ -->
+<section id="hero">
+  <div class="container">
+    <div class="hero-inner">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="dot"></span>
+          Disponível agora • Atendimento 24h
+        </div>
+
+        <h1>Desentupidora <span>24h</span><br>em São Paulo</h1>
+
+        <p class="hero-sub">
+          Atendimento rápido para desentupimento de pia, vaso, ralo, esgoto, caça vazamentos, hidrojateamento e emergências hidráulicas em São Paulo e região.
+        </p>
+
+        <div class="hero-ctas">
+          <a href="#" data-whatsapp-message="Olá! Preciso de atendimento urgente." class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener">
+            <svg class="u-inline-style-4"><use href="#i-whatsapp"/></svg>
+            Chamar no WhatsApp agora
+          </a>
+          <a href="#" data-phone-link class="btn btn-outline btn-lg">
+            <svg class="ico"><use href="#i-phone"/></svg>
+            Ligar para emergência
+          </a>
+        </div>
+
+        <div class="trust-badges">
+          <div class="trust-item"><div class="trust-icon"><svg class="ico u-inline-style-5"><use href="#i-clock"/></svg></div>Atendimento 24h</div>
+          <div class="trust-item"><div class="trust-icon"><svg class="ico u-inline-style-5"><use href="#i-chat"/></svg></div>Orçamento rápido</div>
+          <div class="trust-item"><div class="trust-icon"><svg class="ico u-inline-style-5"><use href="#i-building"/></svg></div>Res., Com. e Cond.</div>
+          <div class="trust-item"><div class="trust-icon"><svg class="ico u-inline-style-5"><use href="#i-users"/></svg></div>Técnicos especializados</div>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="hero-card-main">
+          <div class="panel-top">
+            <div class="panel-status"><span class="dot"></span>EQUIPE DISPONÍVEL</div>
+            <div class="panel-id">SP • Região Metro</div>
+          </div>
+          <div class="panel-tech">
+            <div class="panel-tech-avatar"><svg class="u-inline-style-6"><use href="#i-users"/></svg></div>
+            <div>
+              <div class="panel-tech-title">Equipe pronta para atender</div>
+              <div class="panel-tech-sub">Técnicos disponíveis em São Paulo</div>
+            </div>
+          </div>
+          <div class="hero-stat-grid">
+            <div class="hero-stat"><div class="num">24h</div><div class="lbl">Disponível</div></div>
+            <div class="hero-stat"><div class="num">30min</div><div class="lbl">Tempo de resposta</div></div>
+            <div class="hero-stat"><div class="num">+5k</div><div class="lbl">Atendimentos</div></div>
+            <div class="hero-stat"><div class="num">★4,8</div><div class="lbl">Google</div></div>
+          </div>
+        </div>
+        <div class="hero-card-float">
+          <svg><use href="#i-shield"/></svg>
+          <div><div class="t">Atendimento seguro</div><div class="s">Equipe identificada e treinada</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Urgency Strip -->
+<div class="urgency-strip">
+  <div class="urgency-inner">
+    <svg class="u-inline-style-7"><use href="#i-fire"/></svg>
+    <span>Emergência? Atendemos agora!</span>
+    <a href="#" data-whatsapp-message="Emergência! Preciso de atendimento imediato." target="_blank" rel="noopener" class="urgency-link">
+      Chamar agora <svg class="u-inline-style-8"><use href="#i-arrow-right"/></svg>
+    </a>
+    <span class="urgency-divider">|</span>
+    <a href="#" data-phone-link class="urgency-phone"><span data-phone-display></span></a>
+  </div>
+</div>
+
+<!-- ============================================================
+     SEÇÃO DE EMERGÊNCIA
+============================================================ -->
+<section id="emergency" class="section-sm">
+  <div class="container">
+    <div class="text-center section-head">
+      <div class="eyebrow"><svg class="ico u-inline-style-9"><use href="#i-fire"/></svg>Está com um problema agora?</div>
+      <h2 class="section-title">Resolve rápido. Chama a gente.</h2>
+      <p class="section-subtitle section-subtitle--center">
+        Identificou um desses problemas? Nossa equipe está disponível 24h para resolver hoje mesmo.
+      </p>
+    </div>
+
+    <div class="emergency-grid reveal-stagger reveal">
+      <div class="emergency-card"><div class="emergency-card-icon"><svg class="ico"><use href="#i-droplet"/></svg></div><div class="emergency-card-text">Vaso sanitário entupido</div></div>
+      <div class="emergency-card"><div class="emergency-card-icon"><svg class="ico"><use href="#i-box"/></svg></div><div class="emergency-card-text">Pia entupida</div></div>
+      <div class="emergency-card"><div class="emergency-card-icon"><svg class="ico"><use href="#i-droplet"/></svg></div><div class="emergency-card-text">Ralo com mau cheiro</div></div>
+      <div class="emergency-card"><div class="emergency-card-icon"><svg class="ico"><use href="#i-arrowup"/></svg></div><div class="emergency-card-text">Esgoto retornando</div></div>
+      <div class="emergency-card"><div class="emergency-card-icon"><svg class="ico"><use href="#i-search"/></svg></div><div class="emergency-card-text">Vazamento oculto</div></div>
+      <div class="emergency-card"><div class="emergency-card-icon"><svg class="ico"><use href="#i-dollar"/></svg></div><div class="emergency-card-text">Conta de água muito alta</div></div>
+      <div class="emergency-card"><div class="emergency-card-icon"><svg class="ico"><use href="#i-alert"/></svg></div><div class="emergency-card-text">Infiltração na parede</div></div>
+      <div class="emergency-card"><div class="emergency-card-icon"><svg class="ico"><use href="#i-box"/></svg></div><div class="emergency-card-text">Caixa de gordura entupida</div></div>
+    </div>
+
+    <div class="text-center mt-32">
+      <a href="#" data-whatsapp-message="Olá! Tenho um problema e preciso de ajuda." class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener">
+        <svg class="u-inline-style-10"><use href="#i-whatsapp"/></svg>
+        Resolver agora pelo WhatsApp
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SERVIÇOS
+============================================================ -->
+<section id="services" class="section">
+  <div class="container">
+    <div class="text-center section-head">
+      <div class="eyebrow"><svg class="ico u-inline-style-9"><use href="#i-tool"/></svg>Nossos Serviços</div>
+      <h2 class="section-title">Tudo que você precisa<br>em um só lugar</h2>
+      <p class="section-subtitle section-subtitle--center">
+        Desentupimento, caça vazamentos, hidrojateamento, vídeo inspeção, dedetização e muito mais.
+      </p>
+    </div>
+
+    <div class="services-grid reveal-stagger reveal">
+      <div class="service-card">
+        <div class="service-icon-wrap"><svg class="ico"><use href="#i-droplet"/></svg></div>
+        <h3>Desentupimento de Vaso</h3>
+        <p>Desentupimento de vasos sanitários com equipamentos profissionais. Atendimento rápido e sem sujeira.</p>
+        <a href="#" data-whatsapp-message="Preciso de desentupimento de vaso sanitário." class="btn btn-ghost btn-sm" target="_blank" rel="noopener">Solicitar atendimento <svg class="ico"><use href="#i-arrow-right"/></svg></a>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon-wrap"><svg class="ico"><use href="#i-box"/></svg></div>
+        <h3>Desentupimento de Pia</h3>
+        <p>Desobstrução de pias de cozinha e banheiro. Removemos gordura, resíduos e obstruções com eficiência.</p>
+        <a href="#" data-whatsapp-message="Preciso de desentupimento de pia." class="btn btn-ghost btn-sm" target="_blank" rel="noopener">Solicitar atendimento <svg class="ico"><use href="#i-arrow-right"/></svg></a>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon-wrap"><svg class="ico"><use href="#i-droplet"/></svg></div>
+        <h3>Desentupimento de Ralo</h3>
+        <p>Limpeza e desentupimento de ralos, com eliminação de mau cheiro e melhora no escoamento.</p>
+        <a href="#" data-whatsapp-message="Preciso de desentupimento de ralo." class="btn btn-ghost btn-sm" target="_blank" rel="noopener">Solicitar atendimento <svg class="ico"><use href="#i-arrow-right"/></svg></a>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon-wrap"><svg class="u-inline-style-11"><use href="#i-arrowup"/></svg></div>
+        <h3>Desentupimento de Esgoto</h3>
+        <p>Desobstrução de tubulações de esgoto residenciais, comerciais e condominiais. Prevenção de retorno.</p>
+        <a href="#" data-whatsapp-message="Preciso de desentupimento de esgoto." class="btn btn-ghost btn-sm" target="_blank" rel="noopener">Solicitar atendimento <svg class="ico"><use href="#i-arrow-right"/></svg></a>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon-wrap"><svg class="ico"><use href="#i-search"/></svg></div>
+        <h3>Caça Vazamento</h3>
+        <p>Detecção de vazamentos ocultos com geofone e equipamentos técnicos. Sem quebradeira desnecessária.</p>
+        <a href="#" data-whatsapp-message="Preciso de caça vazamento." class="btn btn-ghost btn-sm" target="_blank" rel="noopener">Solicitar atendimento <svg class="ico"><use href="#i-arrow-right"/></svg></a>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon-wrap"><svg class="ico"><use href="#i-cpipe"/></svg></div>
+        <h3>Hidrojateamento</h3>
+        <p>Limpeza de tubulações, caixas de gordura e esgoto com alta pressão. Ideal para manutenção preventiva.</p>
+        <a href="#" data-whatsapp-message="Preciso de hidrojateamento." class="btn btn-ghost btn-sm" target="_blank" rel="noopener">Solicitar atendimento <svg class="ico"><use href="#i-arrow-right"/></svg></a>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon-wrap"><svg class="u-inline-style-11"><use href="#i-camera"/></svg></div>
+        <h3>Vídeo Inspeção</h3>
+        <p>Câmera inspeciona tubulações internamente, identificando o problema com precisão antes de qualquer intervenção.</p>
+        <a href="#" data-whatsapp-message="Preciso de vídeo inspeção." class="btn btn-ghost btn-sm" target="_blank" rel="noopener">Solicitar atendimento <svg class="ico"><use href="#i-arrow-right"/></svg></a>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon-wrap"><svg class="ico"><use href="#i-shield"/></svg></div>
+        <h3>Dedetização e Controle de Pragas</h3>
+        <p>Controle de baratas, ratos, formigas, cupins e outros insetos. Produtos seguros para residências e comércio.</p>
+        <a href="#" data-whatsapp-message="Preciso de dedetização." class="btn btn-ghost btn-sm" target="_blank" rel="noopener">Solicitar atendimento <svg class="ico"><use href="#i-arrow-right"/></svg></a>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon-wrap"><svg class="u-inline-style-11"><use href="#i-tool"/></svg></div>
+        <h3>Serviços Hidráulicos</h3>
+        <p>Reparos e instalações hidráulicas em geral: torneiras, registros, tubulações, caixas d'água e mais.</p>
+        <a href="#" data-whatsapp-message="Preciso de serviços hidráulicos." class="btn btn-ghost btn-sm" target="_blank" rel="noopener">Solicitar atendimento <svg class="ico"><use href="#i-arrow-right"/></svg></a>
+      </div>
+    </div>
+
+    <div class="text-center mt-40">
+      <a href="#" data-whatsapp-message="Olá! Gostaria de saber mais sobre os serviços." class="btn btn-phone btn-lg" target="_blank" rel="noopener">
+        Ver todos os serviços no WhatsApp
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CAÇA VAZAMENTOS
+============================================================ -->
+<section id="leak" class="section">
+  <div class="container">
+    <div class="leak-inner">
+      <div class="leak-content reveal">
+        <div class="eyebrow"><svg class="ico u-inline-style-9"><use href="#i-droplet"/></svg>Detecção Profissional</div>
+        <h2 class="section-title">Caça Vazamentos<br>sem quebradeira</h2>
+        <p class="section-subtitle">
+          Detectamos vazamentos ocultos sem quebradeira desnecessária, utilizando equipamentos profissionais para localizar o problema com mais precisão e eficiência.
+        </p>
+
+        <div class="leak-benefits">
+          <div class="leak-benefit"><div class="leak-check"><svg class="ico u-inline-style-12"><use href="#i-check"/></svg></div><span>Detecção sem quebra quando possível</span></div>
+          <div class="leak-benefit"><div class="leak-check"><svg class="ico u-inline-style-12"><use href="#i-check"/></svg></div><span>Geofone e equipamentos técnicos de última geração</span></div>
+          <div class="leak-benefit"><div class="leak-check"><svg class="ico u-inline-style-12"><use href="#i-check"/></svg></div><span>Identificação precisa de infiltrações</span></div>
+          <div class="leak-benefit"><div class="leak-check"><svg class="ico u-inline-style-12"><use href="#i-check"/></svg></div><span>Ajuda em casos de conta de água alta</span></div>
+          <div class="leak-benefit"><div class="leak-check"><svg class="ico u-inline-style-12"><use href="#i-check"/></svg></div><span>Laudo técnico disponível, se necessário</span></div>
+        </div>
+
+        <a href="#" data-whatsapp-message="Preciso de caça vazamento." class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener">
+          <svg class="u-inline-style-10"><use href="#i-whatsapp"/></svg>
+          Solicitar caça vazamento
+        </a>
+      </div>
+
+      <div class="leak-visual reveal" aria-hidden="true">
+        <svg class="leak-visual-img"><use href="#i-search"/></svg>
+        <div class="leak-visual-title">Detecção por Geofone</div>
+        <div class="leak-visual-text">
+          Equipamento acústico profissional que localiza vazamentos pela vibração da água na tubulação.
+        </div>
+        <div class="leak-tags">
+          <span class="leak-tag"><svg class="ico u-inline-style-12"><use href="#i-target"/></svg>Alta precisão</span>
+          <span class="leak-tag"><svg class="ico u-inline-style-12"><use href="#i-home"/></svg>Residencial</span>
+          <span class="leak-tag"><svg class="ico u-inline-style-12"><use href="#i-building"/></svg>Comercial</span>
+          <span class="leak-tag"><svg class="ico u-inline-style-12"><use href="#i-building"/></svg>Condomínio</span>
+          <span class="leak-tag"><svg class="ico u-inline-style-12"><use href="#i-bolt"/></svg>Sem quebradeira</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     COMO FUNCIONA
+============================================================ -->
+<section id="howit" class="section u-inline-style-13">
+  <div class="container">
+    <div class="text-center section-head">
+      <div class="eyebrow"><svg class="ico u-inline-style-9"><use href="#i-cpipe"/></svg>Processo simples</div>
+      <h2 class="section-title">Como funciona o atendimento</h2>
+      <p class="section-subtitle section-subtitle--center">
+        Do contato até a solução, tudo é simples, rápido e transparente.
+      </p>
+    </div>
+
+    <div class="steps reveal-stagger reveal">
+      <div class="step-card"><div class="step-num">1</div><h3>Você chama no WhatsApp</h3><p>Descreva o problema pelo WhatsApp ou telefone. Respondemos imediatamente, 24h por dia.</p></div>
+      <div class="step-card"><div class="step-num">2</div><h3>Entendemos o problema</h3><p>Nossa equipe analisa a situação, orienta e passa um orçamento rápido antes de qualquer visita.</p></div>
+      <div class="step-card"><div class="step-num">3</div><h3>Técnico vai até o local</h3><p>Um técnico especializado é enviado até você com os equipamentos certos para o serviço.</p></div>
+      <div class="step-card"><div class="step-num">4</div><h3>Problema resolvido</h3><p>O serviço é realizado com segurança, eficiência e limpeza do local após a conclusão.</p></div>
+    </div>
+
+    <div class="text-center mt-40">
+      <a href="#" data-whatsapp-message="Olá! Quero solicitar um atendimento." class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener">
+        <svg class="u-inline-style-10"><use href="#i-whatsapp"/></svg>
+        Iniciar atendimento agora
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     POR QUE ESCOLHER
+============================================================ -->
+<section id="why" class="section">
+  <div class="container">
+    <div class="text-center section-head">
+      <div class="eyebrow"><svg class="ico u-inline-style-9"><use href="#i-award"/></svg>Nossos Diferenciais</div>
+      <h2 class="section-title">Por que escolher a gente?</h2>
+      <p class="section-subtitle section-subtitle--center">
+        Profissionalismo, rapidez e confiança em cada atendimento.
+      </p>
+    </div>
+
+    <div class="why-grid reveal-stagger reveal">
+      <div class="why-card"><div class="why-icon"><svg class="ico"><use href="#i-clock"/></svg></div><h3>Atendimento 24h</h3><p>Emergências não têm hora. Estamos disponíveis a qualquer momento do dia ou da noite.</p></div>
+      <div class="why-card"><div class="why-icon"><svg class="ico"><use href="#i-users"/></svg></div><h3>Técnicos Capacitados</h3><p>Equipe treinada e experiente para diagnosticar e resolver o problema com segurança.</p></div>
+      <div class="why-card"><div class="why-icon"><svg class="ico"><use href="#i-tool"/></svg></div><h3>Equipamentos Profissionais</h3><p>Utilizamos ferramentas e equipamentos de alta qualidade para garantir a eficiência do serviço.</p></div>
+      <div class="why-card"><div class="why-icon"><svg class="ico"><use href="#i-bolt"/></svg></div><h3>Atendimento Rápido</h3><p>Resposta imediata pelo WhatsApp e deslocamento ágil para resolver sua emergência.</p></div>
+      <div class="why-card"><div class="why-icon"><svg class="ico"><use href="#i-home"/></svg></div><h3>Residencial, Comercial e Condomínios</h3><p>Atendemos todo tipo de imóvel: casas, apartamentos, empresas e condomínios.</p></div>
+      <div class="why-card"><div class="why-icon"><svg class="ico"><use href="#i-chat"/></svg></div><h3>Orçamento Facilitado</h3><p>Orçamento rápido pelo WhatsApp, sem visitas desnecessárias ou cobranças surpresa.</p></div>
+      <div class="why-card"><div class="why-icon"><svg class="ico"><use href="#i-check"/></svg></div><h3>Sem Transtorno</h3><p>Foco em resolver com o mínimo de impacto possível na sua rotina e no seu imóvel.</p></div>
+      <div class="why-card"><div class="why-icon"><svg class="ico"><use href="#i-award"/></svg></div><h3>Empresa Experiente</h3><p>Anos de experiência no mercado, com histórico de atendimentos bem-avaliados em São Paulo.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     DEPOIMENTOS
+============================================================ -->
+<section id="testimonials" class="section u-inline-style-13">
+  <div class="container">
+    <div class="text-center section-head">
+      <div class="eyebrow"><svg class="ico u-inline-style-9"><use href="#i-award"/></svg>Avaliações</div>
+      <h2 class="section-title">O que nossos clientes dizem</h2>
+    </div>
+
+    <div class="rating-bar reveal mt-32">
+      <div class="google-badge">
+        <svg width="28" height="28" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+        <div>
+          <div class="stars">★★★★★</div>
+          <div class="google-score-row"><span class="google-score">4,8</span><span class="google-lbl">no Google<br>+200 avaliações</span></div>
+        </div>
+      </div>
+      <p class="rating-note">Avaliações verificadas de clientes reais</p>
+    </div>
+
+    <div class="reviews-grid reveal-stagger reveal">
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"Chegaram rápido e resolveram o entupimento do vaso no mesmo dia. Super profissionais, explicaram tudo o que fizeram e deixaram o banheiro limpo. Recomendo muito!"</p>
+        <div class="review-author"><div class="review-avatar">MA</div><div><div class="review-name">Maria A.</div><div class="review-date">Vila Mariana, SP • há 2 semanas</div></div></div>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"Atendimento profissional e preço justo. Tinha um vazamento oculto que ninguém conseguia encontrar. Eles encontraram com o geofone sem precisar quebrar tudo. Excelente!"</p>
+        <div class="review-author"><div class="review-avatar">CS</div><div><div class="review-name">Carlos S.</div><div class="review-date">Moema, SP • há 1 mês</div></div></div>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"Encontraram o vazamento sem quebrar a parede inteira, economizei muito na reforma. Atendimento rápido, equipe educada e o serviço ficou perfeito. Vou chamar sempre."</p>
+        <div class="review-author"><div class="review-avatar">PT</div><div><div class="review-name">Paula T.</div><div class="review-date">Tatuapé, SP • há 3 semanas</div></div></div>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"Administro um condomínio e já testei vários serviços. Essa empresa é a melhor! Atendimento rápido, equipe responsável e o orçamento foi o mais transparente que já recebi."</p>
+        <div class="review-author"><div class="review-avatar">RO</div><div><div class="review-name">Roberto O.</div><div class="review-date">Santana, SP • há 1 semana</div></div></div>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"Liguei às 2h da manhã com o esgoto retornando. Em menos de 1 hora o técnico estava aqui. Profissional, rápido e resolveu tudo. Vale cada centavo!"</p>
+        <div class="review-author"><div class="review-avatar">FL</div><div><div class="review-name">Fernanda L.</div><div class="review-date">Lapa, SP • há 2 meses</div></div></div>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"Excelente serviço de dedetização. Tinha problema grave de baratas no restaurante e resolveram completamente. Produto sem cheiro forte e eficiente. Recomendo!"</p>
+        <div class="review-author"><div class="review-avatar">JP</div><div><div class="review-name">João P.</div><div class="review-date">Pinheiros, SP • há 3 semanas</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     REGIÕES ATENDIDAS
+============================================================ -->
+<section id="regions" class="section">
+  <div class="container">
+    <div class="text-center section-head">
+      <div class="eyebrow eyebrow--light"><svg class="ico u-inline-style-9"><use href="#i-pin"/></svg>Cobertura</div>
+      <h2 class="section-title section-title--light">Atendimento em São Paulo e Região</h2>
+      <p class="section-subtitle section-subtitle--center section-subtitle--light">
+        Deslocamento rápido para toda a Grande São Paulo e região metropolitana.
+      </p>
+    </div>
+
+    <div class="regions-grid reveal-stagger reveal">
+      <div class="region-card"><svg><use href="#i-pin"/></svg>Zona Sul</div>
+      <div class="region-card"><svg><use href="#i-pin"/></svg>Zona Norte</div>
+      <div class="region-card"><svg><use href="#i-pin"/></svg>Zona Leste</div>
+      <div class="region-card"><svg><use href="#i-pin"/></svg>Zona Oeste</div>
+      <div class="region-card"><svg><use href="#i-pin"/></svg>Centro</div>
+      <div class="region-card"><svg><use href="#i-pin"/></svg>ABC Paulista</div>
+      <div class="region-card"><svg><use href="#i-pin"/></svg>Guarulhos</div>
+      <div class="region-card"><svg><use href="#i-pin"/></svg>Osasco</div>
+      <div class="region-card"><svg><use href="#i-pin"/></svg>Região Metropolitana</div>
+    </div>
+
+    <div class="text-center mt-32">
+      <a href="#" data-whatsapp-message="Quero verificar atendimento na minha região." class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener">
+        <svg class="u-inline-style-10"><use href="#i-whatsapp"/></svg>
+        Verificar atendimento na minha região
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SOBRE A EMPRESA
+============================================================ -->
+<section id="about" class="section">
+  <div class="container">
+    <div class="about-inner">
+      <div class="about-text reveal">
+        <div class="eyebrow"><svg class="ico u-inline-style-9"><use href="#i-building"/></svg>Quem Somos</div>
+        <h2>Empresa especializada em desentupimento e serviços hidráulicos</h2>
+        <p>
+          Somos uma empresa especializada em desentupimento, caça vazamentos, hidrojateamento, vídeo inspeção, dedetização e serviços hidráulicos. Atuamos com atendimento rápido, equipe preparada e foco em resolver o problema do cliente com segurança e eficiência.
+        </p>
+        <p>
+          Nossa prioridade é oferecer soluções definitivas, com transparência no orçamento e cuidado com o imóvel do cliente. Atendemos residências, comércio, indústrias e condomínios em toda a Grande São Paulo.
+        </p>
+        <p class="about-note">* Anos de experiência confirmados pela empresa.</p>
+
+        <div class="about-actions">
+          <a href="#" data-whatsapp-message="Olá! Quero saber mais sobre a empresa." class="btn btn-whatsapp" target="_blank" rel="noopener">Falar conosco</a>
+          <a href="#" data-phone-link class="btn btn-phone">Ligar agora</a>
+        </div>
+      </div>
+
+      <div class="about-numbers reveal">
+        <div class="about-stat"><div class="num">24h</div><div class="lbl">Disponível</div></div>
+        <div class="about-stat"><div class="num">+5mil</div><div class="lbl">Atendimentos</div></div>
+        <div class="about-stat"><div class="num">4,8★</div><div class="lbl">Google</div></div>
+        <div class="about-stat"><div class="num">SP</div><div class="lbl">e região</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FAQ
+============================================================ -->
+<section id="faq" class="section u-inline-style-13">
+  <div class="container">
+    <div class="text-center section-head">
+      <div class="eyebrow"><svg class="ico u-inline-style-9"><use href="#i-chevron"/></svg>Perguntas Frequentes</div>
+      <h2 class="section-title">Dúvidas mais comuns</h2>
+    </div>
+
+    <div class="faq-list reveal">
+      <div class="faq-item">
+        <button type="button" class="faq-q" aria-expanded="false">A empresa atende 24 horas?<svg class="faq-arrow"><use href="#i-chevron"/></svg></button>
+        <div class="faq-a"><div class="faq-a-inner">Sim! Atendemos 24 horas por dia, 7 dias por semana, incluindo feriados. Entendemos que problemas hidráulicos são emergências e não esperam hora marcada.</div></div>
+      </div>
+      <div class="faq-item">
+        <button type="button" class="faq-q" aria-expanded="false">Vocês atendem emergências?<svg class="faq-arrow"><use href="#i-chevron"/></svg></button>
+        <div class="faq-a"><div class="faq-a-inner">Sim, especialmente emergências! Esgoto retornando, vaso entupido, vazamento ativo — priorizamos esses chamados e enviamos técnico o mais rápido possível.</div></div>
+      </div>
+      <div class="faq-item">
+        <button type="button" class="faq-q" aria-expanded="false">Fazem caça vazamento sem quebrar?<svg class="faq-arrow"><use href="#i-chevron"/></svg></button>
+        <div class="faq-a"><div class="faq-a-inner">Sempre que possível, sim! Utilizamos geofone e equipamentos de detecção acústica que permitem localizar o vazamento sem demolição desnecessária. A quebra só é feita quando realmente necessário, e no ponto exato.</div></div>
+      </div>
+      <div class="faq-item">
+        <button type="button" class="faq-q" aria-expanded="false">Atendem condomínios?<svg class="faq-arrow"><use href="#i-chevron"/></svg></button>
+        <div class="faq-a"><div class="faq-a-inner">Sim! Temos experiência em atendimento para condomínios residenciais e comerciais, com contrato de manutenção preventiva disponível para síndicos e administradoras.</div></div>
+      </div>
+      <div class="faq-item">
+        <button type="button" class="faq-q" aria-expanded="false">O orçamento é pelo WhatsApp?<svg class="faq-arrow"><use href="#i-chevron"/></svg></button>
+        <div class="faq-a"><div class="faq-a-inner">Sim! O orçamento é feito rapidamente pelo WhatsApp. Descreva o problema, envie fotos se possível, e nossa equipe passa uma estimativa de valor antes de qualquer visita.</div></div>
+      </div>
+      <div class="faq-item">
+        <button type="button" class="faq-q" aria-expanded="false">Quais regiões vocês atendem?<svg class="faq-arrow"><use href="#i-chevron"/></svg></button>
+        <div class="faq-a"><div class="faq-a-inner">Atendemos toda a Grande São Paulo: Zona Sul, Norte, Leste, Oeste, Centro, ABC Paulista, Guarulhos, Osasco e região metropolitana. Consulte disponibilidade para sua área pelo WhatsApp.</div></div>
+      </div>
+      <div class="faq-item">
+        <button type="button" class="faq-q" aria-expanded="false">Fazem desentupimento de vaso, pia e ralo?<svg class="faq-arrow"><use href="#i-chevron"/></svg></button>
+        <div class="faq-a"><div class="faq-a-inner">Sim! Desentupimento de vaso sanitário, pia de cozinha, pia de banheiro, ralos, caixas de gordura e esgoto em geral são nossos serviços mais solicitados. Atendemos com agilidade.</div></div>
+      </div>
+      <div class="faq-item">
+        <button type="button" class="faq-q" aria-expanded="false">Trabalham com hidrojateamento?<svg class="faq-arrow"><use href="#i-chevron"/></svg></button>
+        <div class="faq-a"><div class="faq-a-inner">Sim! O hidrojateamento é feito com equipamento de alta pressão e é ideal para limpeza de tubulações de esgoto, caixas de gordura, galerias e manutenção preventiva em condomínios e comércio.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CONTATO
+============================================================ -->
+<section id="contact" class="section">
+  <div class="container">
+    <div class="text-center mb-48">
+      <div class="eyebrow"><svg class="ico u-inline-style-9"><use href="#i-mail"/></svg>Fale Conosco</div>
+      <h2 class="section-title">Entre em contato agora</h2>
+      <p class="section-subtitle section-subtitle--center">
+        Chame pelo WhatsApp, ligue ou preencha o formulário. Respondemos rápido!
+      </p>
+    </div>
+
+    <div class="contact-inner">
+      <div>
+        <div class="contact-info reveal">
+          <div class="contact-item"><div class="contact-item-icon"><svg class="ico"><use href="#i-chat"/></svg></div><div class="contact-item-text"><span class="lbl">WhatsApp</span><span class="val" data-phone-display></span></div></div>
+          <div class="contact-item"><div class="contact-item-icon"><svg class="ico"><use href="#i-phone"/></svg></div><div class="contact-item-text"><span class="lbl">Telefone</span><span class="val" data-phone-display></span></div></div>
+          <div class="contact-item"><div class="contact-item-icon"><svg class="ico"><use href="#i-clock"/></svg></div><div class="contact-item-text"><span class="lbl">Horário</span><span class="val">Atendimento 24h — todos os dias</span></div></div>
+          <div class="contact-item"><div class="contact-item-icon"><svg class="ico"><use href="#i-mail"/></svg></div><div class="contact-item-text"><span class="lbl">E-mail</span><span class="val">contato@empresa.com.br</span></div></div>
+          <div class="contact-item"><div class="contact-item-icon"><svg class="ico"><use href="#i-pin"/></svg></div><div class="contact-item-text"><span class="lbl">Área de atendimento</span><span class="val">São Paulo e Grande SP</span></div></div>
+        </div>
+
+        <div class="map-placeholder mt-20">
+          <svg class="u-inline-style-14"><use href="#i-pin"/></svg>
+          <span>Cole aqui o iframe do Google Maps</span>
+          <span class="map-placeholder-hint">Maps → Compartilhar → Incorporar um mapa</span>
+        </div>
+
+        <div class="contact-actions">
+          <a href="#" data-whatsapp-message="Olá! Preciso de um atendimento." class="btn btn-whatsapp" target="_blank" rel="noopener">
+            <svg class="u-inline-style-15"><use href="#i-whatsapp"/></svg> WhatsApp
+          </a>
+          <a href="#" data-phone-link class="btn btn-phone"><svg class="ico u-inline-style-5"><use href="#i-phone"/></svg> Ligar agora</a>
+        </div>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm" novalidate>
+        <h3 class="contact-form-title">Envie uma mensagem</h3>
+        <p class="contact-form-subtitle">Resposta rápida pelo WhatsApp ou telefone.</p>
+
+        <div class="form-row">
+          <div class="form-group"><label for="nome">Nome completo</label><input type="text" id="nome" placeholder="Seu nome" autocomplete="name" /></div>
+          <div class="form-group"><label for="tel">Telefone / WhatsApp</label><input type="tel" id="tel" placeholder="" data-phone-placeholder autocomplete="tel" /></div>
+        </div>
+
+        <div class="form-group"><label for="bairro">Bairro / Cidade</label><input type="text" id="bairro" placeholder="Ex: Vila Mariana, SP" /></div>
+
+        <div class="form-group">
+          <label for="problema">Tipo de problema</label>
+          <select id="problema">
+            <option value="">Selecione o tipo de serviço</option>
+            <option>Desentupimento de vaso sanitário</option>
+            <option>Desentupimento de pia</option>
+            <option>Desentupimento de ralo</option>
+            <option>Desentupimento de esgoto</option>
+            <option>Caça vazamento</option>
+            <option>Hidrojateamento</option>
+            <option>Vídeo inspeção</option>
+            <option>Dedetização / Controle de pragas</option>
+            <option>Serviços hidráulicos</option>
+            <option>Outro</option>
+          </select>
+        </div>
+
+        <div class="form-group"><label for="msg">Descreva o problema</label><textarea id="msg" placeholder="Conte mais sobre o problema para agilizarmos o atendimento..."></textarea></div>
+
+        <button type="submit" class="btn btn-whatsapp contact-submit" data-contact-submit>
+          <svg class="u-inline-style-10"><use href="#i-whatsapp"/></svg> Enviar pelo WhatsApp
+        </button>
+        <p class="form-note">Ao clicar, você será redirecionado para o WhatsApp com a mensagem preenchida.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FOOTER
+============================================================ -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">
+          <div class="logo-icon"><svg class="u-inline-style-16"><use href="#i-tool"/></svg></div>
+          <span>Kortesia</span>&nbsp;Desentupidora
+        </div>
+        <p>Empresa especializada em desentupimento, caça vazamentos, hidrojateamento, vídeo inspeção, dedetização e serviços hidráulicos. Atendimento 24h em São Paulo e região.</p>
+        <div class="footer-contact">
+          <a href="#" data-whatsapp-message="" target="_blank" rel="noopener" class="footer-contact-link"><svg class="ico"><use href="#i-chat"/></svg><span data-phone-display></span></a>
+          <a href="#" data-phone-link class="footer-contact-link"><svg class="ico"><use href="#i-phone"/></svg><span data-phone-display></span></a>
+        </div>
+      </div>
+
+      <div>
+        <h4>Links Rápidos</h4>
+        <ul>
+          <li><a href="#hero">Início</a></li>
+          <li><a href="#services">Serviços</a></li>
+          <li><a href="#leak">Caça Vazamentos</a></li>
+          <li><a href="#howit">Como Funciona</a></li>
+          <li><a href="#testimonials">Depoimentos</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Serviços</h4>
+        <ul>
+          <li><a href="#services">Desentupimento</a></li>
+          <li><a href="#leak">Caça Vazamento</a></li>
+          <li><a href="#services">Hidrojateamento</a></li>
+          <li><a href="#services">Vídeo Inspeção</a></li>
+          <li><a href="#services">Dedetização</a></li>
+          <li><a href="#services">Serviços Hidráulicos</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Regiões</h4>
+        <ul>
+          <li><a href="#regions">Zona Sul</a></li>
+          <li><a href="#regions">Zona Norte</a></li>
+          <li><a href="#regions">Zona Leste</a></li>
+          <li><a href="#regions">Zona Oeste</a></li>
+          <li><a href="#regions">ABC Paulista</a></li>
+          <li><a href="#regions">Guarulhos</a></li>
+          <li><a href="#regions">Osasco</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2025 Kortesia Desentupidora. Todos os direitos reservados.</span>
+      <span>Desentupidora 24h em São Paulo e Região</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============================================================
+     ELEMENTOS FLUTUANTES
+============================================================ -->
+<a href="#" data-whatsapp-message="Olá! Preciso de atendimento." class="fab-whatsapp" target="_blank" rel="noopener" aria-label="Chamar no WhatsApp">
+  <svg class="u-inline-style-17"><use href="#i-whatsapp"/></svg>
+  <span class="fab-tooltip">Chamar no WhatsApp</span>
+</a>
+
+<div class="mobile-bar" role="navigation" aria-label="Ações rápidas mobile">
+  <a href="#" data-whatsapp-message="Olá! Preciso de atendimento." class="btn btn-whatsapp" target="_blank" rel="noopener">
+    <svg class="u-inline-style-15"><use href="#i-whatsapp"/></svg> WhatsApp
+  </a>
+  <a href="#" data-phone-link class="btn btn-phone"><svg class="ico u-inline-style-5"><use href="#i-phone"/></svg> Ligar agora</a>
+</div>
+
+<script defer src="./src/js/config.js"></script>
+<script defer src="./src/js/whatsapp.js"></script>
+<script defer src="./src/js/menu.js"></script>
+<script defer src="./src/js/faq.js"></script>
+<script defer src="./src/js/scroll.js"></script>
+<script defer src="./src/js/form.js"></script>
+<script defer src="./src/js/main.js"></script>
+<script type="module" src="./src/js/main.js"></script>
+</body>
+</html>

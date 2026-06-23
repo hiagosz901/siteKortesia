@@ -1,0 +1,66 @@
+/* Media queries */
+@media (prefers-reduced-motion: reduce){
+  *{animation-duration:.01ms !important; animation-iteration-count:1 !important; transition-duration:.01ms !important; scroll-behavior:auto !important;}
+}
+
+@media (max-width:640px){ .container{padding:0 var(--space-sm);} }
+
+@media (max-width:768px){
+  .section{padding:var(--space-2xl) 0;}
+  .section-sm{padding:var(--space-lg) 0;}
+}
+
+@media (max-width:1024px){
+  nav[aria-label="Menu principal"]{display:none;}
+  .header-phone span{display:none;}
+}
+
+@media (max-width:640px){
+  .header-actions .btn-whatsapp.btn-sm span:not(.fab-tooltip){display:none;}
+  .header-actions .btn-whatsapp.btn-sm{padding:10px 12px;}
+  .hamburger{display:flex;}
+}
+
+@media (min-width:1025px){ .mobile-menu{display:none;} }
+
+@media (max-width:900px){ .footer-grid{grid-template-columns:1fr 1fr;} }
+
+@media (max-width:560px){ .footer-grid{grid-template-columns:1fr;} }
+
+@media (max-width:900px){ .contact-inner{grid-template-columns:1fr;} }
+
+@media (max-width:560px){ .form-row{grid-template-columns:1fr;} }
+
+@media (max-width:768px){ .fab-whatsapp{bottom:84px; right:16px; width:52px;height:52px;} .fab-tooltip{display:none;} }
+
+@media (max-width:768px){ .mobile-bar{display:flex;} body{padding-bottom:0;} }
+
+@media (max-width:980px){ .hero-inner{grid-template-columns:1fr; gap:var(--space-lg);} }
+
+@media (max-width:980px){ .hero-card-float{display:none;} }
+
+@media (max-width:900px){ .emergency-grid{grid-template-columns:repeat(2,1fr);} }
+
+@media (max-width:980px){ .services-grid{grid-template-columns:repeat(2,1fr);} }
+
+@media (max-width:640px){ .services-grid{grid-template-columns:1fr;} }
+
+@media (max-width:900px){ .leak-inner{grid-template-columns:1fr;} }
+
+@media (max-width:900px){ .steps{grid-template-columns:repeat(2,1fr);} }
+
+@media (max-width:560px){ .steps{grid-template-columns:1fr;} }
+
+@media (max-width:980px){ .why-grid{grid-template-columns:repeat(2,1fr);} }
+
+@media (max-width:560px){ .why-grid{grid-template-columns:1fr;} }
+
+@media (max-width:980px){ .reviews-grid{grid-template-columns:repeat(2,1fr);} }
+
+@media (max-width:640px){ .reviews-grid{grid-template-columns:1fr;} }
+
+@media (max-width:900px){ .regions-grid{grid-template-columns:repeat(3,1fr);} }
+
+@media (max-width:560px){ .regions-grid{grid-template-columns:repeat(2,1fr);} }
+
+@media (max-width:900px){ .about-inner{grid-template-columns:1fr;} }

@@ -1,0 +1,63 @@
+/* Variaveis de design */
+:root{
+  /* Brand — navy/petróleo (confiança técnica) + verde sinal (disponibilidade) */
+  --navy-950:#06111f;
+  --navy-900:#0a1a2e;
+  --navy-800:#102542;
+  --navy-700:#15315a;
+  --navy-600:#1c4174;
+  --navy-500:#27548f;
+  --blue-400:#3f7fd1;
+  --blue-300:#6fa3e3;
+  --blue-100:#e4eefb;
+  --blue-50:#f3f8fd;
+
+  --signal-700:#0f7a44;
+  --signal-600:#129650;
+  --signal-500:#17ab5c;
+  --signal-100:#dcf3e6;
+
+  --wa-600:#1da851;
+  --wa-700:#168a42;
+
+  --amber-600:#c2660c;
+  --amber-100:#fdedd9;
+
+  --ink-900:#0c1620;
+  --ink-700:#33414f;
+  --ink-500:#5c6b7a;
+  --ink-400:#8593a1;
+  --ink-200:#d7dee5;
+  --ink-100:#eaeef2;
+  --ink-50:#f6f8fa;
+  --white:#ffffff;
+
+  --font-display:'Sora', system-ui, sans-serif;
+  --font-body:'Inter', system-ui, sans-serif;
+
+  --space-3xs:4px;
+  --space-2xs:8px;
+  --space-xs:12px;
+  --space-sm:16px;
+  --space-md:24px;
+  --space-lg:32px;
+  --space-xl:48px;
+  --space-2xl:64px;
+  --space-3xl:96px;
+
+  --radius-sm:10px;
+  --radius-md:16px;
+  --radius-lg:22px;
+  --radius-pill:999px;
+
+  --shadow-sm:0 1px 2px rgba(10,26,46,.06), 0 1px 3px rgba(10,26,46,.08);
+  --shadow-md:0 8px 24px rgba(10,26,46,.10);
+  --shadow-lg:0 20px 48px rgba(10,26,46,.16);
+  --shadow-card:0 1px 2px rgba(10,26,46,.04), 0 12px 28px rgba(10,26,46,.07);
+
+  --ease:cubic-bezier(.32,.08,.24,1);
+  --dur:220ms;
+
+  --container:1180px;
+  --header-h:76px;
+}
